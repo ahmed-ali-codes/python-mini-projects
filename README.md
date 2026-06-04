@@ -9,8 +9,18 @@ A growing collection of Python projects built during university coursework and p
 | # | Project | Description | Key Libraries |
 |---|---|---|---|
 | 1 | [Adventure Time Theme Park Simulator](./theme-park-simulator/) | Animated theme park simulation with patron AI, ride mechanics, and real-time Matplotlib visualization | `matplotlib` |
-
-> More projects coming soon — see the [Roadmap](#roadmap) below.
+| 2 | [Simple Python Calculator](./calculator/) | Command-line based simple calculator supporting basic operations | Built-in |
+| 3 | [Expense Tracker](./expense-tracker/) | Command-line expense tracker demonstrating core programming concepts | Built-in |
+| 4 | [Expense Tracker with Database](./expense-tracker-with-database/) | Command-line application to manage expenses securely stored using SQLite | `sqlite3`, `pandas` |
+| 5 | [File Organizer](./file-organizer/) | Script to automatically organize files based on their file extensions | `os`, `shutil` |
+| 6 | [Number Guessing Game](./number-guessing-game/) | Interactive command-line guessing game demonstrating core fundamentals | `random` |
+| 7 | [Password Generator](./password-generator/) | Simple and secure command-line password generator with customizable length | `random`, `string` |
+| 8 | [Personal Finance Dashboard](./personal-finance-dashboard/) | Data analysis and visualization tool that reads bank transactions from CSV | `pandas`, `matplotlib` |
+| 9 | [Python Quiz Game](./quiz-game/) | Interactive command-line quiz game demonstrating dictionaries | Built-in |
+| 10 | [Rock-Paper-Scissors](./rock-paper-scissors/) | Classic game against the computer in Best-of-3 or Best-of-5 modes | `random` |
+| 11 | [Python To-Do List](./to-do-list/) | Interactive command-line To-Do List application | Built-in |
+| 12 | [Python Weather App](./weather-app/) | Command-line weather application making HTTP requests and handling JSON | `requests`, `json` |
+| 13 | [Student Grade Manager](./student-graade-manager/) | Command-line application to store, update, and report student grades with file persistence | `json`, `os` |
 
 ---
 
@@ -62,19 +72,6 @@ python-projects/
 - Command-line argument handling (`argparse`)
 - Pathfinding and collision/barrier logic
 - Modular project structure across multiple `.py` files
-
----
-
-## Roadmap
-
-Projects planned to be added:
-
-- [ ] **Student Grade Manager** — store, update, and report student grades with file persistence
-- [ ] **To-Do List CLI** — command-line task manager with priorities and deadlines
-- [ ] **Web Scraper** — scrape and export structured data from a website using `requests` + `BeautifulSoup`
-- [ ] **Number Guessing Game** — binary search-based guessing game with difficulty levels
-- [ ] **Data Analyser** — read a CSV dataset, compute statistics, and plot charts with `pandas` + `matplotlib`
-- [ ] **Expense Tracker** — log and categorise personal expenses, export monthly summaries to CSV
 
 ---
 
