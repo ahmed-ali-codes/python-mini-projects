@@ -1,0 +1,10 @@
+# Sensitive data — never commit these!
+vault.db
+salt.key
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
