@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Config with credentials — never commit
+email_config.json
+
+# Generated outputs
+reports/
+backups/
