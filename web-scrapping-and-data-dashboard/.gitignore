@@ -1,0 +1,24 @@
+# Database files
+*.db
+*.sqlite
+
+# Generated images/dashboards
+*.png
+output/*
+!output/.gitkeep
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+venv/
+env/
+ENV/
+
+# OS generated files
+.DS_Store
+Thumbs.db
